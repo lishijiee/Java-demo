@@ -7,7 +7,6 @@
         <artifactId>Java-demo</artifactId>
         <version>${revision}</version>
     </parent>
-    <groupId>com.lishijiee</groupId>
     <artifactId>Demo-Utils</artifactId>
     <version>${revision}</version>
     <name>${project.artifactId}</name>
@@ -33,6 +32,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
     </dependencies>
 

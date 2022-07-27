@@ -29,7 +29,7 @@
         <logback.version>1.1.7</logback.version>
         <slf4j.version>1.7.21</slf4j.version>
         <common.logging>1.2</common.logging>
-        <fastjson.version>1.2.51</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <mybatis.version>3.4.6</mybatis.version>
         <mybatis.plus.version>3.4.3</mybatis.plus.version>
         <mysql.jdbc.version>8.0.19</mysql.jdbc.version>
@@ -42,6 +42,7 @@
         <module>MQ-Kafka</module>
         <module>NIO-Netty</module>
         <module>TEST-Demo</module>
+        <module>Demo-Utils</module>
     </modules>
 
 </project>
