@@ -1,4 +1,4 @@
-# ?????xml?????
+# use xml config
 
 logPath: C:/logs/
 logName: Test_Demo
@@ -6,3 +6,4 @@ logBusinessLevel: debug
 logRootLevel: info
 #logging:
 #  config: classpath:logback-spring.xml
+
