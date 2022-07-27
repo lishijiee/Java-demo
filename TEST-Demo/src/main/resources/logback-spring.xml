@@ -130,7 +130,7 @@
             <!--每天日志归档路径以及格式-->
             <fileNamePattern>${LOG_NAME}/${LOG_NAME}-error-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                <maxFileSize>100MB</maxFileSize>
+                <maxFileSize>1MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
             <!--日志文档保留15天-->
             <maxHistory>15</maxHistory>
