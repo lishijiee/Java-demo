@@ -41,15 +41,7 @@
     <modules>
         <module>MQ-Kafka</module>
         <module>NIO-Netty</module>
+        <module>TEST-Demo</module>
     </modules>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
